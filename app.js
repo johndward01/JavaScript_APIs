@@ -5,7 +5,7 @@ console.log("EXERCISE 1:\n==========\n");
 
 document.getElementById("submitSearch").addEventListener("click", () => {
     const img = document.querySelector("img");
-    const search = document.getElementById("searchWord").nodeValue;
+    const search = document.getElementById("searchWord").value;
 
     fetch(
         "https://api.giphy.com/v1/gifs/translate?api_key=jzY3QKTEtRkwId2RE7jqO9iaV2AkiWwM&s=" +
